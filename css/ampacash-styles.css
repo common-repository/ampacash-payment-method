@@ -1,0 +1,67 @@
+.cdk-overlay-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.success {
+    background-color: unset !important;
+    text-align: center;
+    width: 100%;
+}
+
+#place_order {
+    display: none;
+}
+
+.mat-progress-bar {
+    margin-bottom: 10px!important;
+}
+
+#modalOtp .col-3 {
+    margin-bottom: 8px;
+}
+#modalOtp .box,
+#modalOtp hr, 
+.payment_method_ampacash_veprap label img  {
+    display: none;
+}
+#modalOtp .qr-section-pay {
+    margin-top: 0;
+}
+#modalOtp #poppamount {
+    font-size: 15px;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+#modalOtp .form-input.glow-shadow {
+    height: 38px;
+}
+#modalOtp #phone {
+    font-size: 15px;
+    height: 42px;
+}
+#modalOtp .modal-dialog img {
+    height: 30px !important;
+}
+#modalOtp #pay {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+.cdk-overlay-container #modalOtp .modal-close {
+    top: 12px !important;
+    right: 12px !important;
+    max-height: 24px !important;
+    max-width: 24px !important;
+    font-size: 25px !important;
+}
+#modalOtp .modal-dialog {
+    max-width: 300px !important;
+}
+.qr-section-pay hr {
+    font-size: 13px;
+}
+.payment_method_veprap img:not(.payby) {
+    display: none;
+}
